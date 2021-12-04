@@ -1,5 +1,5 @@
 import React from 'react';
-
+import AboutPhoto from '../../../assets/images/myPhoto2.png';
 const About = () => {
     return (
       <div id="about" className="h-auto bg-gray-800 pb-5">
@@ -12,41 +12,40 @@ const About = () => {
           </p>
           <hr className="w-2/12 mx-auto" />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 my-5 mx-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 mx-20 mt-10">
           <div>
             <img
-              className="transform hover:skew-y-6 duration-500"
-              src="https://static.remove.bg/remove-bg-web/126e8851f6e88bf644890fafdf1b0d82aff0629e/assets/start-1abfb4fe2980eabfbbaaa4365a0692539f7cd2725f324f904565a9a744f8e214.jpg"
+              className="transform hover:translate-y-6 duration-500 -mt-12"
+              src={AboutPhoto}
               alt="personal Photo"
             />
           </div>
-          <div className="mx-auto md:mx-20 mt-5">
+          <div className="mx-auto md:mx-20 mt-24">
             <div>
-              <h1 className="text-white">Hi There</h1>
+              <h1 className="text-white text-xl mb-2"><span className="text-2xl">H</span>i  There</h1>
               <p className="text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Explicabo, enim. Maxime aliquam amet inventore nostrum aliquid
-                quaerat nesciunt ducimus at!
+                I'm Full Stack Web Developer. Recently I have completed Full-Stack Web Developer
+                course from Programming Hero.
               </p>
             </div>
             <div>
               <div className="my-2">
-                <p className="text-yellow-300">Name :</p>
-                <p className="text-white">Nure-Alam Siddiqe</p>
+                <p className="text-yellow-300 text-xl">Name :</p>
+                <p className="text-white font-medium">Nure-Alam Siddiqe</p>
               </div>
               <div className="my-1">
-                <p className="text-yellow-300">Email :</p>
-                <p className="text-white">nure.alam91@gmail.com</p>
+                <p className="text-yellow-300 text-xl">Email :</p>
+                <p className="text-white font-medium">nure.alam91@gmail.com</p>
               </div>
               <div>
-                <p className="text-yellow-300">Phone :</p>
-                <p className="text-white">+8801738557347</p>
+                <p className="text-yellow-300 text-xl">Phone :</p>
+                <p className="text-white font-medium">+8801738557347</p>
               </div>
               <div className="my-2">
-                <p className="text-yellow-300">LinkedIn :</p>
+                <p className="text-yellow-300 text-xl">LinkedIn :</p>
                 <p>
                   <a
-                    className="text-white"
+                    className="text-white font-medium"
                     href="https://www.linkedin.com/in/md-nure-alam-siddiqe/"
                     target="_blank"
                   >

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import personalPhoto from '../../../assets/images/bg-1.png';
+import personalPhoto from '../../../assets/images/myPhoto.png';
 
 const Banner = () => {
     return (
@@ -20,7 +20,7 @@ const Banner = () => {
                 <span className="text-yellow-500"> FULL STACK</span> <br />
                 WEB DEVELOPER
               </h1>
-              <p className="mb-20">I'm a junior full stack web developer</p>
+              <p className="mb-20 text-white">I'm a junior full stack web developer</p>
               <button
                 type="button"
                 className="bg-yellow-500 hover:bg-yellow-600 transition duration-500 py-2 px-4 rounded-sm"

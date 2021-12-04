@@ -1,0 +1,92 @@
+[
+  {
+    "id": "_0010011",
+    "key": "sidnazWatch",
+    "projectName": "SidNaz Watch House",
+    "projectPhoto": [
+      "./images/sidnaz_watch_home.PNG",
+      "./images/sidnaz_watch_product.PNG",
+      "./images/sidnaz_watch_login.PNG"
+    ],
+    "live": "https://sidnaz-watch-house-60806.web.app/",
+    "clientSide": "https://github.com/Nure-Alam-sidddique/SidNaz-Watch-House-Client-Side",
+    "serverSide": "https://github.com/Nure-Alam-sidddique/SidNaz-Watch-Server-Side",
+    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
+    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+  },
+  {
+    "id": "_0010012",
+    "key": "nurnazTravelo",
+    "projectName": "NurNaz Travelo",
+    "projectPhoto": [
+      "./images/naz_travelo_home.PNG",
+      "./images/naz_travelo_destination.PNG",
+      "./images/naz_travelo_login.PNG"
+    ],
+    "live": "https://nurnaztravelo.web.app/",
+    "clientSide": "https://github.com/Nure-Alam-sidddique/NurNaz-Travelo",
+    "serverSide": "https://github.com/Nure-Alam-sidddique/NurNaz-Travelo-Server-side",
+    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
+    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+  },
+  {
+    "id": "_0010013",
+    "key": "nazPharma",
+    "projectName": "NazPharma",
+    "projectPhoto": [
+      "./images/naz_pharma_home.PNG",
+      "./images/naz_pharma_login.PNG",
+      "./images/naz_pharma_signup.PNG"
+    ],
+    "live": "https://naz-pharma.web.app/",
+    "clientSide": "https://github.com/Nure-Alam-sidddique/NazPharma",
+    "serverSide": false,
+    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
+    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+  },
+  {
+    "id": "_0010014",
+    "key": "nazninStore",
+    "projectName": "Naznin Shopping Store",
+    "projectPhoto": [
+      "./images/naznin_store_home.PNG",
+      "./images/naznin_store_product.PNG",
+      "./images/naznin_store_addprice.PNG"
+    ],
+    "live": "https://blissful-ardinghelli-94364a.netlify.app/",
+    "clientSide": "https://github.com/Nure-Alam-sidddique/naznin-shopping-store",
+    "serverSide": false,
+    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
+    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+  },
+  {
+    "id": "_0010015",
+    "key": "macBook",
+    "projectName": "Mac Book Buy",
+    "projectPhoto": [
+      "./images/mac_home.PNG",
+      "./images/mac_product_price.PNG",
+      "./images/mac_stevekaku.PNG"
+    ],
+    "live": "https://infallible-bell-f4044c.netlify.app/",
+    "clientSide": "https://github.com/Nure-Alam-sidddique/Mac-Book",
+    "serverSide": false,
+    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
+    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+  },
+  {
+    "id": "_0010016",
+    "key": "Honda",
+    "projectName": "Honda CBR",
+    "projectPhoto": [
+      "./images/honda_banner.PNG",
+      "./images/honda_modal.PNG",
+      "./images/honda_ask.PNG"
+    ],
+    "live": "https://thirsty-fermi-8d32e6.netlify.app/",
+    "clientSide": "https://github.com/Nure-Alam-sidddique/honda-CBR",
+    "serverSide": false,
+    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
+    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+  }
+]

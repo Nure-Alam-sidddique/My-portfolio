@@ -1,25 +1,25 @@
 import React from 'react';
-
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
+  const { projectName, live, clientSide, serverSide } = project;
+  console.log(project.projectPhoto);
     return (
       <div className="m-2 ">
         <div
-          className="card h-72  w-auto mx-4 rounded-sm  relative  transform hover:-translate-y-1 hover:scale-110 duration-500 ease-in-out"
+          className="card h-72 bg-no-repeat w-auto mx-4 rounded-sm  relative  transform hover:-translate-y-1 hover:scale-110 duration-500 ease-in-out bg-cover"
           style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80')",
+            backgroundImage: `url(${project.projectPhoto[0]}) `,
           }}
         >
           <div className="absolute inset-x-0 bottom-0 z-0  ">
             <div>
               <div className="flex justify-between mx-2 mb-4">
-                <span className="text-2xl font-semibold  text-white mt-5 text-center">
-                  First Project
+                <span className="text-2xl font-semibold  text-red-600 mt-5 text-center">
+                  {projectName}
                 </span>
-                <span className="flex flex-col">
+                <div className="inline">
                   <a
-                    className="text-white text-xl text-center"
-                    href="https://sidnaz-watch-house-60806.web.app/"
+                    className="text-green-600 text-xl text-center"
+                    href={live}
                     target="_blank"
                   >
                     <svg
@@ -44,8 +44,8 @@ const ProjectCard = () => {
                     </svg>
                   </a>
                   <a
-                    className="text-white text-xl text-center"
-                    href="https://sidnaz-watch-house-60806.web.app/"
+                    className="text-green-600 text-xl text-center"
+                    href={clientSide}
                     target="_blank"
                   >
                     <svg
@@ -64,8 +64,8 @@ const ProjectCard = () => {
                     </svg>
                   </a>
                   <a
-                    className="text-white text-xl text-center"
-                    href="https://sidnaz-watch-house-60806.web.app/"
+                    className="text-green-600 text-xl text-center"
+                    href={serverSide}
                     target="_blank"
                   >
                     <svg
@@ -83,17 +83,17 @@ const ProjectCard = () => {
                       />
                     </svg>
                   </a>
-                </span>
+                </div>
               </div>
               <button
                 type="button"
-                className="w-full p-2 bg-yellow-300 bg-opacity-30 text-yellow-500 hover:bg-blue-400 text-2xl hover:bg-opacity-50  hover:text-red-500 flex "
+                className="w-full p-2 bg-yellow-300 bg-opacity-30 text-gray-800 hover:bg-blue-400 text-2xl hover:bg-opacity-50  hover:text-red-500 flex "
               >
                 Details
                 <span className="px-1 mt-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-6 w-6"
+                    class="h-6 w-6 "
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
