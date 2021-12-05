@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../Footer/Footer';
 import About from '../About/About';
 import Banner from '../Banner/Banner';
 import Blogs from '../Blogs/Blogs';
@@ -17,7 +16,6 @@ const Home = () => {
         <Skill></Skill>
         <Blogs></Blogs>
         <Contact></Contact>
-        <Footer></Footer>
       </div>
     );
 };

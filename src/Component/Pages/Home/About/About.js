@@ -6,9 +6,8 @@ const About = () => {
         <h1 className="text-4xl text-yellow-50 text-center py-5">About Me</h1>
         <div className=" mx-auto md:mx-80">
           <p className=" mx-5 mb-4 md:mb-4 text-justify text-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In debitis
-            magni vel expedita tenetur incidunt consequuntur repellat veniam,
-            quibusdam numquam.
+            I'm Full Stack Web Developer. Recently I have completed Full-Stack
+            Web Developer course from Programming Hero.
           </p>
           <hr className="w-2/12 mx-auto" />
         </div>
@@ -22,10 +21,12 @@ const About = () => {
           </div>
           <div className="mx-auto md:mx-20 mt-24">
             <div>
-              <h1 className="text-white text-xl mb-2"><span className="text-2xl">H</span>i  There</h1>
+              <h1 className="text-white text-xl mb-2">
+                <span className="text-2xl">H</span>i There
+              </h1>
               <p className="text-white">
-                I'm Full Stack Web Developer. Recently I have completed Full-Stack Web Developer
-                course from Programming Hero.
+                I'm Full Stack Web Developer. Recently I have completed
+                Full-Stack Web Developer course from Programming Hero.
               </p>
             </div>
             <div>

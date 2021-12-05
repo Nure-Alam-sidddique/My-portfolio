@@ -23,10 +23,10 @@ const Contact = () => {
     }
     return (
       <div id="contact" className="h-auto bg-gray-800">
-        <div className="container mx-auto w-10/12">
-          <h1 className="text-xl text-white">Contact Me !!!</h1>
-          <h1 className="text-2xl text-white mb-10">
-            Let's Create <br /> Something Big
+        <div className="container mx-auto w-3/5">
+          <h1 className="text-2xl text-white text-center mb-1">Contact Me___</h1>
+          <h1 className="text-xl text-white mb-12 text-center">
+            Let's Create <span className="text-yellow-400 text-2xl">Something Big</span>
           </h1>
           {result ? showResult() : null}
           <div>
@@ -58,9 +58,11 @@ const Contact = () => {
               />
               <button
                 type="submit"
-                className="bg-red-50 text-blue-500 md:w-1/6 w-auto mb-7 py-2 px-3 rounded-sm text-blod"
+                className="transition duration-500 md:w-3/12 w-auto mb-7 py-2 px-3 rounded-sm bg-yellow-500 hover:bg-yellow-600"
               >
-                <span>Send A Message</span>
+                <span className="text-xl text-white ">
+                  Send A Message
+                </span>
               </button>
             </form>
           </div>

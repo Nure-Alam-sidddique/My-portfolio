@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 // import { Link } from 'react-router-dom';
 import { Link } from 'react-scroll';
+
 
 
 const Header = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+   const navigate = useNavigate();
     return (
       <div>
-        <nav className="bg-gray-800 h-12 text-white fixed top-0 z-10 w-full h-auto  ">
+        <nav className="bg-gray-800  text-white fixed top-0 z-10 w-full h-auto  ">
           <div className="flex justify-between ">
             <div>
-              <h1 className="text-2xl p-1 text-yellow-300">
+              <h1
+                className="text-2xl p-1 text-yellow-300"
+                onClick={() => navigate(-1)}
+              >
                 Nure Alam Siddiqe
               </h1>
             </div>
@@ -24,6 +30,7 @@ const Header = () => {
                   smooth={true}
                   offset={-48}
                   duration={1000}
+                  onClick={() => navigate(-1)}
                 >
                   Home
                 </Link>
