@@ -27,6 +27,7 @@ const ProjectCard = ({ project }) => {
                 className="text-white mx-2"
                 href={live}
                 target="_blank"
+                rel='noreferrer'
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -53,6 +54,7 @@ const ProjectCard = ({ project }) => {
                 className="text-white mx-1"
                 href={clientSide}
                 target="_blank"
+                rel='noreferrer'
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -73,6 +75,7 @@ const ProjectCard = ({ project }) => {
                 className="text-white mx-2"
                 href={serverSide}
                 target="_blank"
+                rel='noreferrer'
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
