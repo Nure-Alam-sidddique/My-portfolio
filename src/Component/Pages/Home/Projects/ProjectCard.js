@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
           <div>
             <img
               className="h-36 w-full"
-              src={project.projectPhoto[0]}
+              src={project.photo[0]}
               alt="projectPhoto"
             />
           </div>
