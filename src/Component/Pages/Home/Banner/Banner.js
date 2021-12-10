@@ -15,7 +15,7 @@ const Banner = () => {
     AOS.refresh();
   }, []);
     return (
-      <div id="banner" className="bg-gray-800 h-auto">
+      <div id="banner" className="bg-gray-800 h-auto w-screen">
         {/* <h1 className="pt-12 text-3xl text-center text-white">
           This is baner page
         </h1> */}

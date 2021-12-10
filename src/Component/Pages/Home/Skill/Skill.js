@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = () => {
     return (
-      <div id="skill" className="h-auto pb-10 bg-gray-900 bg-opacity-100">
+      <div id="skill" className="h-auto w-screen pb-10 bg-gray-900 bg-opacity-100">
         <h1 className="text-center text-4xl py-5 text-white">My Skill </h1>
         <div className="grid grid-cols-2 md:grid-cols-6 mx-10 my-10">
           <div className=" relative  h-32 w-32  bg-gray-800 items-center transform rotate-45 shadow-lg rounded-lg">

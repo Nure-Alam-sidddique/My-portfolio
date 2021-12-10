@@ -22,7 +22,7 @@ const Contact = () => {
       setShowResult(true);
     }
     return (
-      <div id="contact" className="h-auto bg-gray-800">
+      <div id="contact" className="h-auto w-screen bg-gray-800">
         <div className="container mx-auto w-3/5">
           <h1 className="text-2xl text-white text-center mb-1">Contact Me___</h1>
           <h1 className="text-xl text-white mb-12 text-center">

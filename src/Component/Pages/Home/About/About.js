@@ -2,7 +2,7 @@ import React from 'react';
 import AboutPhoto from '../../../assets/images/myPhoto2.png';
 const About = () => {
     return (
-      <div id="about" className="h-auto bg-gray-800 pb-5">
+      <div id="about" className="h-auto w-screen bg-gray-800 pb-5">
         <h1 className="text-4xl text-yellow-50 text-center py-5">About Me</h1>
         <div className=" mx-auto md:mx-80">
           <p className=" mx-5 mb-4 md:mb-4 text-justify text-white">

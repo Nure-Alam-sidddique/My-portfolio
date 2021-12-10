@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
-      <div id="footer" className="h-auto  bg-gray-900 relative text-center ">
+      <div id="footer" className="h-auto w-screen bg-gray-900 relative text-center ">
         <div className="mx-10 pt-10">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
             <div className="h-36 w-full bg-gray-800">

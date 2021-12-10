@@ -11,8 +11,14 @@
     "live": "https://sidnaz-watch-house-60806.web.app/",
     "clientSide": "https://github.com/Nure-Alam-sidddique/SidNaz-Watch-House-Client-Side",
     "serverSide": "https://github.com/Nure-Alam-sidddique/SidNaz-Watch-Server-Side",
-    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
-    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+    "description":[
+      "Niche website (with admin panel) and Client booking, cancel, review on product", 
+      "Admin can make admin, add product, manage product, manage order",
+      "Mobile Responsive, Order, user and review save to database", 
+      "New user can register or register user login with(Email and Password Or login with Google) using Firebase Authentication",
+      "Admin login (email: admin@admin.com, password: 123456)"
+    ],
+    "technology": " React, React bootstrap, Material UI, React-Router,React-hook-form,Firebase Authentication,Heroku, Mongodb, axios"
   },
   {
     "_id": "_0010012",
@@ -26,23 +32,32 @@
     "live": "https://nurnaztravelo.web.app/",
     "clientSide": "https://github.com/Nure-Alam-sidddique/NurNaz-Travelo",
     "serverSide": "https://github.com/Nure-Alam-sidddique/NurNaz-Travelo-Server-side",
-    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
-    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+    "description": [
+      "Mobile Responsive,Order cancel, Product update and delete",
+      "Admin (add services and manage service)",
+      "Booking order and saving to database that order.",
+      "Order cancel and update"
+    ],
+    "technology": "React, React-router-dom, React-bootstrap, firebase, axios, Mongodb,Express Js."
   },
   {
     "_id": "_0010013",
     "key": "nazPharma",
     "projectName": "NazPharma",
     "photo": [
-      "images/naz_pharma_home.PNG",
+      "/images/naz_pharma_home.PNG",
       "/images/naz_pharma_login.PNG",
       "/images/naz_pharma_signup.PNG"
     ],
     "live": "https://naz-pharma.web.app/",
     "clientSide": "https://github.com/Nure-Alam-sidddique/NazPharma",
     "serverSide": false,
-    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
-    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+    "description": [
+      " Client Base Website (Firebase login system application)",
+      " New user can register",
+      "User can login (Email and Password Or login with Google, Facebook and Github) using Firebase Authentication System"
+    ],
+    "technology": "React, React-router-dom, Firebase, Tailwind css."
   },
   {
     "_id": "_0010014",
@@ -56,8 +71,13 @@
     "live": "https://blissful-ardinghelli-94364a.netlify.app/",
     "clientSide": "https://github.com/Nure-Alam-sidddique/naznin-shopping-store",
     "serverSide": false,
-    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
-    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+    "description": [
+      "User interfase design using bootstrap",
+      "Price update according to user order",
+      "Data load from fake API",
+      "Prouct details are show on upper of the product section"
+    ],
+    "technology": "HTML, CSS, Javascript, Javascript DOM Manupulation, Bootstrap"
   },
   {
     "_id": "_0010015",
@@ -71,8 +91,12 @@
     "live": "https://infallible-bell-f4044c.netlify.app/",
     "clientSide": "https://github.com/Nure-Alam-sidddique/Mac-Book",
     "serverSide": false,
-    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
-    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+    "description": [ 
+      "UI design with tailwind CSS" ,
+    "Mobile responsive" ,
+     "Using DOM menupulations "
+    ],
+    "technology": "HTML, Javascript DOM Manupulation, Tailwind CSS"
   },
   {
     "_id": "_0010016",
@@ -86,7 +110,12 @@
     "live": "https://thirsty-fermi-8d32e6.netlify.app/",
     "clientSide": "https://github.com/Nure-Alam-sidddique/honda-CBR",
     "serverSide": false,
-    "description": "loem lorem lorem lorem lorem loem lorem lorem lorem",
-    "technology": "React React-bootstrap Material UI React-Router React-hook-formFirebase Authentication Heroku Mongodb  axios"
+    "description": [
+      "Honda CBR  only client side design",
+      "Mobile responsive but nav section is not mobile view (doing work for mobile veiw)",
+      "Eight section(header & banner, Featured, new Bike Arrival, review part, Ask & question, Gallery, news Room and footer )",
+      "Vanilla Css using for extra change"
+    ],
+    "technology": "HTML, Vanilla CSS, Bootsrrap Framework and Figma for Messurement"
   }
 ]
